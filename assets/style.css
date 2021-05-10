@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.w3-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.w3-container h3 {
+    padding: 10px 0;
+}
+
+.w3-container span {
+    font-size: 30px;
+}
+
+.w3-container input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid gray
+}
+
+.w3-container button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    background-color: lightblue;
+    border: none;
+    font-size: 18px;
+}
+
+.w3-container button:hover {
+    color: white;
+    background-color: teal;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.topnav {
+    overflow: hidden;
+    padding: 0 100px;
+    background-color: whitesmoke;
+}
+
+.topnav button {
+    color: black;
+    border: none;
+    background-color: #e9e9e9;
+    border-left: 2px solid gray;
+}
+
+.topnav button:hover {
+    background-color: black;
+    color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.topnav a img {
+    width: 100px;
+    height: auto;
+}
+
+.topnav .search-container {
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topnav .search-container .btn-search {
+    width: 50%;
+    display: none;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    background-color: #33bef5;
+}
+
+.menu a button {
+    color: black;
+    border: none;
+    background-color: #33bef5;
+    border-right: 2px solid whitesmoke;
+    padding: 8px 20px;
+}
+
+.menu a button:hover {
+    background-color: whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-left {
+    width: 70%;
+    height: auto;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.item-content-left {
+    width: 100%;
+    height: auto;
+    padding: 0 100px;
+    text-align: justify;
+}
+
+.item-content-left>div button {
+    background-color: black;
+    border: none;
+}
+
+.item-content-left>div button a {
+    color: white;
+}
+
+.item-content-left b {
+    font-size: 25px;
+    color: rgb(0, 55, 100);
+}
+
+.item-content-left p {
+    font-size: 16px;
+}
+
+.item-content-left hr {
+    margin-top: 20px;
+    border-top: 1px solid gray;
+}
+
+.item-content-left img {
+    width: 100%;
+    height: auto;
+}
+
+.hr {
+    padding: 0 100px;
+    color: red;
+}
+
+.content-right {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+}
+
+.content-right button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+.content-right img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(206, 223, 255);
+    background-color: whitesmoke;
+}
+
+.container-register {
+    padding: 5px;
+    width: 70%;
+    margin: 20px auto
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px
+}
+
+.registerbtn {
+    font-size: 16px;
+    background: #049688;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9
+}
+
+.registerbtn:hover {
+    opacity: 1
+}
+
+a {
+    color: dodgerblue
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center
+}
+
+.registerbottom {
+    width: 100%;
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: center
+}
+
+.post-container {
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px
+}
+
+.post-container a button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.post-container a button:hover {
+    color: white;
+    background-color: rgb(0, 73, 73);
+}
+
+.post-input {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box
+}
+
+.post-input option {
+    width: 100%
+}
+
+.post-input select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px
+}
+
+.post-input textarea {
+    width: 100%;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+.btn-postinput button {
+    width: 100%;
+    background-color: #555555;
+    color: white;
+    padding: 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px
+}
+
+.btn-postinput button:hover {
+    background-color: #45a049
+}
+
+@media screen and (max-width: 600px) {
+    .post-container {
+        width: 90%;
+    }
+    .container-register {
+        width: 90%;
+    }
+    .menu {
+        padding: 0;
+    }
+    .menu button {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .content {
+        padding: 0;
+    }
+    .content-left {
+        width: 100%;
+        padding: 20px;
+    }
+    .item-content-left {
+        padding: 0;
+    }
+    .content-right {
+        display: none;
+    }
+    .menu button {
+        width: 32%;
+        padding: 10px 5px;
+        box-sizing: border-box;
+    }
+    .topnav {
+        padding: 0;
+    }
+    .topnav .search-container {
+        width: 100%;
+        float: right;
+    }
+    .topnav a,
+    .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+        border: 1px solid #ccc;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .item-content-left {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        text-align: justify;
+    }
+    .item-content-left b {
+        font-size: 18px;
+    }
+    .item-content-left p {
+        font-size: 14px;
+    }
+}
